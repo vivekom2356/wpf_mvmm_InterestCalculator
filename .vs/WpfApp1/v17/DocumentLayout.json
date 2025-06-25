@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\wpfapp1\\wpfapp1\\viewmodel\\interestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodel\\interestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\wpfapp1\\wpfapp1\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\wpfapp1\\wpfapp1\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\wpfapp1\\wpfapp1\\model\\interestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\model\\interestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\wpfapp1\\wpfapp1\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59412701-6A6A-4867-836D-477EB4D7451F}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\RelayCommand.cs",
+              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\RelayCommand.cs",
+              "RelativeToolTip": "WpfApp1\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:24:47.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InterestViewModel.cs",
+              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\ViewModel\\InterestViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModel\\InterestViewModel.cs",
+              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\ViewModel\\InterestViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModel\\InterestViewModel.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:15:51.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\View\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T08:50:59.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\View\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:50:54.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InterestModel.cs",
+              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\Model\\InterestModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Model\\InterestModel.cs",
+              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\WpfApp1\\WpfApp1\\Model\\InterestModel.cs",
+              "RelativeToolTip": "WpfApp1\\Model\\InterestModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:02:43.149Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

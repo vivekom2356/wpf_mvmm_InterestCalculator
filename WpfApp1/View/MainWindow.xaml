@@ -1,0 +1,91 @@
+﻿<Window x:Class="WpfApp1.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:WpfApp1.ViewModel"
+        mc:Ignorable="d"
+        Title="Simple Interest Calculator" Height="450" Width="800"
+        Background="#1e1e1e"
+        FontFamily="Segoe UI"
+        Foreground="White"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:InterestViewModel />
+    </Window.DataContext>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Principal -->
+        <StackPanel Orientation="Horizontal" Margin="0,10" Grid.Row="0" HorizontalAlignment="Center">
+            <Label Content="Principal:" Width="120" FontSize="18" VerticalAlignment="Center" />
+            <TextBox Width="220"
+                     Padding="8"
+                     Background="#2e2e2e"
+                     BorderBrush="#444"
+                     Foreground="White"
+                     BorderThickness="1"
+                     Text="{Binding Principal, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!-- Rate -->
+        <StackPanel Orientation="Horizontal" Margin="0,10" Grid.Row="1" HorizontalAlignment="Center">
+            <Label Content="Rate (%):" Width="120" FontSize="18" VerticalAlignment="Center" />
+            <TextBox Width="220"
+                     Padding="8"
+                     Background="#2e2e2e"
+                     BorderBrush="#444"
+                     Foreground="White"
+                     BorderThickness="1"
+                     Text="{Binding Rate, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!-- Time -->
+        <StackPanel Orientation="Horizontal" Margin="0,10" Grid.Row="2" HorizontalAlignment="Center">
+            <Label Content="Time (years):" Width="120" FontSize="18" VerticalAlignment="Center"/>
+            <TextBox Width="220"
+                     Padding="8"
+                     Background="#2e2e2e"
+                     BorderBrush="#444"
+                     Foreground="White"
+                     BorderThickness="1"
+                     Text="{Binding Time, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!-- Calculate Button -->
+        <Button Grid.Row="3"
+                Content="Calculate"
+                Width="160"
+                Height="45"
+                FontWeight="SemiBold"
+                FontSize="14"
+                Background="#0078D7"
+                Foreground="White"
+                BorderThickness="0"
+                Cursor="Hand"
+                Command="{Binding CalculateCommand}"
+                HorizontalAlignment="Center" />
+
+        <!-- Result Display -->
+        <Border Grid.Row="4"
+                Background="#2e2e2e"
+                BorderBrush="#444"
+                Padding="50,10"
+                BorderThickness="1"
+                Margin="10"
+                HorizontalAlignment="Center">
+            <StackPanel>
+                <TextBlock Text="{Binding InterestResult}" FontSize="18" HorizontalAlignment="Center" Margin="0,5"/>
+                <TextBlock Text="{Binding TotalResult}" FontSize="18" HorizontalAlignment="Center" Margin="0,5"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
